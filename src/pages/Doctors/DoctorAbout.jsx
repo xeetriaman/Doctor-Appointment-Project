@@ -17,7 +17,7 @@ const DoctorAbout = () => {
           <li className='flex flex-col sm:flex-row sm:justify-between sm:items-end md:gap-5 mb-[30px]'>
             <div>
               <span className='text-irisBlueColor text-[15px] leading-6 font-semibold'>
-              {formateDate("12-04-2010")} - {formateDate("12-04-2013")}
+              12-04-2010 - 12-04-2013
               </span>
               <p className='text-[16px] leading-6 font-medium text-textColor'>Masters in Surgeon</p>
             </div>
@@ -27,7 +27,7 @@ const DoctorAbout = () => {
           <li className='flex flex-col sm:flex-row sm:justify-between sm:items-end md:gap-5 mb-[30px]'>
             <div>
               <span className='text-irisBlueColor text-[15px] leading-6 font-semibold'>
-               {formateDate("7-09-2014")}- {formateDate("7-09-2017")}
+               7-09-2014- 7-09-2017
               </span>
               <p className='text-[16px] leading-6 font-medium text-textColor'>PHD in Surgeon</p>
             </div>
@@ -41,7 +41,7 @@ const DoctorAbout = () => {
       <ul className='grid sm:grid-cols-2 gap-[30px] pt-4 md:p-5' >
         <li className='p-4 rounded bg-[#fff9ea]'>
           <span className='text-yellowColor text-[15px] leading-6 font-semibold'>
-          {formateDate("7-09-2014")}- {formateDate("7-09-2017")}
+          7-09-2014- 7-09-2017
           </span>
           <p className='text-[16px] leading-6 font-medium text-textColor'>Sr. Surgeon</p>
           <p className='text-[14px] leading-5 font-medium text-textColor'>New Apollo Hospital,New York.</p>
@@ -49,7 +49,7 @@ const DoctorAbout = () => {
         </li>
         <li className='p-4 rounded bg-[#fff9ea]'>
           <span className='text-yellowColor text-[15px] leading-6 font-semibold'>
-          {formateDate("7-09-2014")}- {formateDate("7-09-2017")}
+          7-09-2014- 7-09-2017
           </span>
           <p className='text-[16px] leading-6 font-medium text-textColor'>Sr. Surgeon</p>
           <p className='text-[14px] leading-5 font-medium text-textColor'>New Apollo Hospital,New York.</p>
